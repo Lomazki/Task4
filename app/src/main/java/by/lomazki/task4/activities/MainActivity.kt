@@ -1,6 +1,6 @@
-package by.lomazki.task4
+package by.lomazki.task4.activities
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import by.lomazki.task4.R
 
 class MainActivity : AppCompatActivity(R.layout.activity_main)

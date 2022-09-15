@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_bottom"
+    app:startDestination="@id/output_container">
+
+    <fragment
+        android:id="@+id/output_container"
+        android:name="by.lomazki.task4.fragments.OutputFragment"
+        tools:layout="@layout/fragment_output" />
+
+    <fragment
+        android:id="@+id/input_container"
+        android:name="by.lomazki.task4.fragments.InputFragment"
+        tools:layout="@layout/fragment_input" />
+
+</navigation>

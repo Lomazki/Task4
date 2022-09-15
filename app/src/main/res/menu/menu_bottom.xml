@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/input_container"
+        android:icon="@drawable/ic_baseline_input_24"
+        android:title="@string/input" />
+
+    <item
+        android:id="@+id/output_container"
+        android:icon="@drawable/ic_baseline_output_24"
+        android:title="@string/output" />
+
+</menu>
